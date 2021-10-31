@@ -46,6 +46,6 @@ def main(req: func.HttpRequest,context: func.Context) -> func.HttpResponse:
  
  
     return func.HttpResponse(
-             "pred",
+             str(pred),
              status_code=200
         )
